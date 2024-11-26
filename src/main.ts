@@ -51,7 +51,7 @@ function drawGrid() {
         ctx.fillText(
           `${cell.plant.type} L${cell.plant.growthLevel}`,
           x * cellSize + 5,
-          y * cellSize + 50
+          y * cellSize + 50,
         );
       }
     }
@@ -154,6 +154,6 @@ addEventListener("keydown", (e: KeyboardEvent) => {
   }
   drawGrid();
 });
-
+//hi
 createGrid();
 drawGrid();
